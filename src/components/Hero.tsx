@@ -36,7 +36,7 @@ const Hero = ({ onExplore }: HeroProps) => {
 
       <div className="hero-visual">
         <img
-          src="/banner-stack.png"
+          src={`${import.meta.env.BASE_URL}banner-stack.png`}
           alt="Technology Stack"
           className="hero-banner"
         />
